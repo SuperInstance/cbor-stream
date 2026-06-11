@@ -1,0 +1,11 @@
+[package]
+name = "cbor_stream"
+version = "0.1.0"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/casey-digennaro/cbor_stream"
+edition = "2021"
+description = "CBOR streaming encoder/decoder"
+
+[[bin]]
+name = "cbor_stream"
+path = "src/main.rs"
